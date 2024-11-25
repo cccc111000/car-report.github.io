@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>網頁報告</title>
+  <!-- b -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+
+  <!-- michalsnik -->
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <link rel="stylesheet" href="car.css">
+</head>
+<body>
+  <!-- 導覽列 -->
+    <nav class="navbar navbar-dark bg-dark fixed-top">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="car.html"><img src="logo.jpg" alt=""></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="offcanvas offcanvas-end text-bg-dark" tabindex="-1" id="offcanvasDarkNavbar" aria-labelledby="offcanvasDarkNavbarLabel">
+            <div class="offcanvas-header">
+              <h5 class="offcanvas-title" id="offcanvasDarkNavbarLabel">選單</h5>
+              <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            </div>
+            <div class="offcanvas-body">
+              <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="car.html">首頁</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">車款介紹</a>
+                </li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    成員
+                  </a>
+                  <ul class="dropdown-menu dropdown-menu-dark">
+                    <li><a class="dropdown-item" href="index3.html">張晰鈞</a></li>
+                    <li><a class="dropdown-item" href="#">周沛樟</a></li>
+                    <li>
+                      <hr class="dropdown-divider">
+                    </li>
+                    <li><a class="dropdown-item" href="#">譚皓</a></li>
+                  </ul>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </nav>
+
+      <!-- 影片 -->
+      <div class="vid">
+        <div class="btn">
+            <div class="down" id="downbtn">
+              <img src="downbtn.png" alt="">
+            </div>
+        </div>
+     </div>
+
+     <!-- 三欄 -->
+     <!-- 三欄畫面 -->
+    <div class="three-columns" id="three">
+      <div class="three-warp">
+        <div class="three-item t1" data-aos="fade-up">
+          <a href="#"><img src="car1.gif" alt=""></a>
+          <h3>風馳電掣</h3>
+        </div>
+        <div class="three-item t2" data-aos="fade-up">
+          <a href="#"><img src="car2.gif" alt=""></a>
+          <h3>精隨所在</h3>
+        </div>
+        <div class="three-item t3" data-aos="fade-up">
+          <a href="#"><img src="car3.gif" alt=""></a>
+          <h3>無畏之擇</h3>
+        </div>
+      </div>
+    </div>
+    <!-- 兩欄 -->
+    <div class="car-model">
+      <h2>車型系列</h2>
+      <div class="car-contint">
+        <div class="car-warp">
+          <div class="car-item">
+            <img src="car4.avif" alt="">
+            <div class="item-logo">
+              <img src="carlogo1.png" alt="">
+            </div>
+            <div class="item-text">
+              <a href="#">了解這台車</a>
+            </div>
+          </div>
+          <div class="car-item">
+            <img src="car5.avif" alt="">
+            <div class="item-logo">
+              <img src="carlogo2.png" alt="">
+            </div>
+            <div class="item-text">
+              <a href="#">了解這台車</a>
+            </div>
+          </div>
+        </div>
+        <div class="car-warp">
+          <div class="car-item">
+            <img src="car6.avif" alt="">
+            <div class="item-logo">
+              <img src="carlogo3.png" alt="">
+            </div>
+            <div class="item-text">
+              <a href="#">了解這台車</a>
+            </div>
+          </div>
+          <div class="car-item">
+            <img src="car7.avif" alt="">
+            <div class="item-logo">
+              <img src="carlogo4.png" alt="">
+            </div>
+            <div class="item-text">
+              <a href="#">了解這台車</a>
+            </div>
+          </div>
+        </div>
+        <div class="car-warp">
+          <div class="car-item">
+            <img src="car8.avif" alt="">
+            <div class="item-logo">
+              <img src="carlogo5.png" alt="">
+            </div>
+            <div class="item-text">
+              <a href="#">了解這台車</a>
+            </div>
+          </div>
+          <div class="car-item">
+            <img src="car9.avif" alt="">
+            <div class="item-logo">
+              <img src="carlogo6.png" alt="">
+            </div>
+            <div class="item-text">
+              <a href="#">了解這台車</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- 搜尋區域 -->
+    <div class="search-content">
+      <div class="scerch-warp">
+        <div class="search-item s1">
+          <div class="search-text">
+            <h2>選擇自己所愛</h2>
+            <p>馳騁未來，駕馭傳奇——保時捷，為熱愛而生。</p>
+          </div>
+        </div>
+        <div class="search-item s2">
+          <img src="carcar.png" alt="">
+        </div>
+      </div>
+    </div>
+
+    <!-- 相簿 -->
+    <div class="photo-album">
+      <div class="photo-text">
+        <h2>Social Media</h2>
+      </div>
+      <div class="photo-content">
+        <div class="photo-item p1">
+          <video controls autoplay muted loop width="100%">
+            <source src="540p.mp4">
+          </video>
+        </div>
+        <div class="photo-item p2">
+          <video controls autoplay muted loop width="100%" height="100%">
+            <source src="video3.mp4">
+          </video>
+        </div>
+        <div class="photo-item p3">
+          <video controls autoplay muted loop width="100%" height="100%">
+            <source src="540p.mp4">
+          </video>
+        </div>
+        <div class="photo-item p4">
+          <video controls autoplay muted loop width="100%" height="100%">
+            <source src="video3.mp4">
+          </video>
+        </div>
+        <div class="photo-item p5">
+          <video controls autoplay muted loop width="100%" height="100%">
+            <source src="video4.mp4">
+          </video>
+        </div>
+        <div class="photo-item p6">
+          <video controls autoplay muted loop width="100%" height="100%">
+            <source src="video2.mp4">
+          </video>
+        </div>
+        <div class="photo-item p7">
+          <video controls autoplay muted loop width="100%" height="100%">
+            <source src="video3.mp4">
+          </video>
+        </div>
+        <div class="photo-item p8">
+          <video controls autoplay muted loop width="100%" height="100%">
+            <source src="video2.mp4">
+          </video>
+        </div>
+        <div class="photo-item p9">
+          <video controls autoplay muted loop width="100%" height="100%">
+            <source src="video4.mp4">
+          </video>
+        </div>
+      </div>
+    </div>
+
+    <!-- 頁尾 -->
+  <div class="footer">
+    <div class="footer-item">
+      <img src="footer.png" alt="">
+      <h2>所在地區/語言</h2>
+    </div>
+    <div class="footer-item t">
+      <div class="footer-text">
+        <h2>電子報</h2>
+        <p>隨時掌握新品動態</p>
+        <a href="#">訂閱</a>
+      </div>
+      <div class="footer-text">
+        <h2>聯繫我們</h2>
+        <p>有任何疑問</p>
+        <a href="#">聯繫表格</a>
+      </div>
+      <div class="footer-text">
+        <h2>社群媒體</h2>
+        <p>透過以下平台獲得更多資訊</p>
+        <div class="footer-img">
+          <a href="#"><img src="footer1.png" alt=""></a>
+          <a href="#"><img src="footer2.png" alt=""></a>
+          <a href="#"><img src="footer3.png" alt=""></a>
+          <a href="#"><img src="footer4.png" alt=""></a>
+        </div>
+      </div>
+    </div>
+    <div class="footer-item">
+      <div class="footer-logo"><img src="footer-logo.png" alt=""></div>
+    </div>
+  </div>
+
+
+    <!-- js -->
+     <script>
+      // 向下按鈕------------------
+      document.getElementById("downbtn").addEventListener("click", function () {
+        // 滾動到目標區域
+        const scrollDistance = 500; // 自定義滾動距離（像素）
+        window.scrollBy({
+          top: scrollDistance, // 向下滾動 500px
+          behavior: "smooth",  // 平滑滾動效果
+        });
+        
+        // 讓按鈕隱藏
+        const button = this;
+        setTimeout(() => {
+            button.style.opacity = 0; // 漸隱效果
+            setTimeout(() => {
+            button.style.display = "none"; // 完全移除按鈕
+            }, 300); // 等待漸隱完成
+        }, 500); // 等待滾動完成
+        });
+
+        // 滑動讓向下按鈕消失
+        const button = document.getElementById("downbtn");
+
+        // 滾動事件：監測滾動距離
+        window.addEventListener("scroll", () => {
+          const scrollPosition = window.scrollY; // 當前滾動距離
+
+          // 如果滾動距離超過 100px，隱藏並移除按鈕
+          if (scrollPosition > 100) {
+            button.classList.add("hidden"); // 添加隱藏類
+            setTimeout(() => {
+              button.remove(); // 延遲移除按鈕，確保漸隱效果完成
+            }, 300); // 與 CSS 的過渡時間保持一致
+          }
+        });
+
+        // 出場動畫-------------
+        AOS.init({
+          once: true
+        });
+    </script>
+</body>
+</html>
