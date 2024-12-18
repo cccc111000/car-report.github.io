@@ -1,9 +1,10 @@
 /* 導覽列----------------------------------------------------------------- */
 .navbar-brand img{
     width: 70px;
+    pointer-events: none;
   }
 
-  /* 影片--------------------------------------------------- */
+  
   body{
     padding: 0;
     margin: 0;
@@ -110,6 +111,7 @@
     margin-top: 100px;
     display: flex;
     justify-content: center;
+    overflow: hidden;
     }
 
     .three-warp{
@@ -181,6 +183,7 @@
     margin-top: 50px;
     display: flex;
     justify-content: center;
+    overflow: hidden;
     }
 
     .three-warp{
@@ -236,6 +239,7 @@
     flex-direction: column;
     align-items: center;
     margin-top: 100px;
+    overflow: hidden;
     }
 
     .car-model h2{
@@ -319,6 +323,7 @@
     flex-direction: column;
     align-items: center;
     margin-top: 100px;
+    overflow-x: hidden;
     }
 
     .car-model h2{
@@ -404,9 +409,11 @@
     .search-text h2{
     font-weight: 700;
     font-size: 40px;
+    padding: 20px 0px;
     }
 
     .search-text p{
+    float: 700;
     font-size: 30px;
     }
 
@@ -453,10 +460,12 @@
     .search-text h2{
     font-weight: 700;
     font-size: 30px;
+    padding: 20px 0;
     }
 
     .search-text p{
     font-size: 20px;
+    font-weight: 500;
     }
 
     .scerch-warp{
